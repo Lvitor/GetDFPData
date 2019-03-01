@@ -40,7 +40,7 @@ gdfpd.get.info.companies <- function(type.data = 'companies_files', cache.folder
 
   # get data from github
   cat('\nReading info file from github')
-  link.github <- 'https://raw.githubusercontent.com/msperlin/GetitrData_auxiliary/master/InfoBovespaCompanies.csv'
+  link.github <- 'https://github.com/Lvitor/GetDFPData/blob/master/inst/extdata/InfoBovespaCompanies.csv'
 
   my.cols <- readr::cols(
     id.company = readr::col_integer(),
